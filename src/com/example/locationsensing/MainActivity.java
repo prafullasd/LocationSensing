@@ -18,7 +18,11 @@ import android.view.View;
 import android.widget.Toast;
 
 
-
+/**
+ * 
+ * @author Prafulla
+ *
+ */
 public class MainActivity extends Activity implements GooglePlayServicesClient.ConnectionCallbacks,
 GooglePlayServicesClient.OnConnectionFailedListener {
 	private LocationClient mLocationClient;
