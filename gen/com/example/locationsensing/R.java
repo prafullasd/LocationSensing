@@ -1286,13 +1286,17 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060019;
         public static final int action_menu_presenter=0x7f06001a;
         public static final int action_mode_close_button=0x7f060027;
-        public static final int action_settings=0x7f060043;
+        public static final int action_settings=0x7f060047;
         public static final int activity_chooser_view_content=0x7f060028;
         public static final int always=0x7f06000f;
         public static final int beginning=0x7f060014;
-        public static final int button1=0x7f060040;
-        public static final int button2=0x7f060041;
-        public static final int button3=0x7f060042;
+        public static final int button1=0x7f060044;
+        public static final int button11=0x7f060040;
+        public static final int button12=0x7f060041;
+        public static final int button2=0x7f060045;
+        public static final int button3=0x7f060046;
+        public static final int button4=0x7f060042;
+        public static final int button5=0x7f060043;
         public static final int checkbox=0x7f060030;
         public static final int collapseActionView=0x7f060011;
         public static final int default_activity_button=0x7f06002b;
@@ -1471,6 +1475,8 @@ containing a value of this type.
         public static final int button1Text=0x7f07002b;
         public static final int button2Text=0x7f07002c;
         public static final int button3Text=0x7f07002d;
+        public static final int button4Text=0x7f07002f;
+        public static final int button5Text=0x7f070030;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 

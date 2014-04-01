@@ -14,26 +14,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
-        android:text="@string/title" />
-
+        android:text="@string/title"/>
+   
+   <Button android:text="Start Download" android:id="@+id/button11"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:onClick="onDownloadClick"></Button>
+    <Button android:text="View Downloads" android:id="@+id/button12"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:onClick="showDownload"></Button>
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button4Text" 
+        android:onClick="senseLeastAccuracy"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button5Text" 
+        android:onClick="senseLowAccuracy"/>
+    
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button1Text" 
-        android:onClick="senseGps"/>
+        android:onClick="senseLowAccuracy"/>
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button2Text" 
-        android:onClick="senseWifi"/>
+        android:onClick="senseHighAccuracy"/>
     
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button3Text" 
-        android:onClick="senseBoth"/>
+        android:onClick="senseLastLocation"/>
 
 </LinearLayout>

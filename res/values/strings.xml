@@ -4,9 +4,11 @@
     <string name="app_name">LocationSensing</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="button1Text">GPS</string>
-    <string name="button2Text">Wifi</string>
-    <string name="button3Text">Both</string>
-    <string name="title">Location Sensing</string>
+    <string name="button1Text">Low Accuracy</string>
+    <string name="button2Text">High Accuracy</string>
+    <string name="button3Text">Last Location</string>
+    <string name="title">Location Sensing - Logfiles created in downloads folder.</string>
+    <string name="button4Text">Least Accuracy</string>
+    <string name="button5Text">Lower Accuracy</string>
 
 </resources>
